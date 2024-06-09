@@ -12,7 +12,7 @@ if(!res){
   let emoji = res.htmlCode[0]
   return (
     <>
-      <div className="container p-4 w-screen h-screen flex-col justify-center item-center gap-4 m-0 bg-black/20 "> 
+      <div className="p-4 w-[100vw] h-screen flex-col justify-center item-center gap-4 m-0 bg-black/20 "> 
         <Card data={res} />
     <button className="px-4 py-3 rounded-md w-full mt-10 bg-black/80 text-white" onClick={()=>{
       setFlag(pre=> !pre);

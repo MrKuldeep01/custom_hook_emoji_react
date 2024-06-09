@@ -10,7 +10,7 @@ in this, we are using only random url.
 
 response :
 
-```js
+```json
 {
     "name": "hugging face",
     "category": "smileys and people",
